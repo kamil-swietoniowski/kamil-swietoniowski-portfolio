@@ -37,7 +37,7 @@ header {
 }
 
 header > div {
-    font-size: x-large;
+    font-size: 2.5rem;
 }
 
 section {
@@ -48,7 +48,7 @@ section {
 }
 
 .left-column {
-    width: 62%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -61,30 +61,36 @@ section {
     padding: 2;
 }
 
+.aboutme {
+    font-size: large;
+    font-size: 1.5rem;
+}
+
 .greeting > h1 {
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .right-column {
     width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    row-gap: 40px;
+    justify-content: start;
+    row-gap: 20px;
 }
 
-.check-project {
+.check-project > h1 {
     font-size: xx-large;
+    padding-top: 15%;
+    margin: 0px 5% 15px 0;
 }
 
 #project1, #project2 {
     width: 80%;
     height: 130px;
-    border: 2px solid #020202;
-    border-radius: 22px;
     padding: 15px 25px;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 
@@ -106,8 +112,9 @@ footer .info {
 footer .links {
     display: flex;
     justify-content: right;
-    padding: 2px 10px;
-    gap: 15px; 
+    padding: 2px 20px;
+    gap: 15px;
+
 }
 
 footer > div {
@@ -124,7 +131,7 @@ footer > div {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     section {
         flex-direction: column;
     }
@@ -138,6 +145,12 @@ footer > div {
         align-items: center;
         width: 100%;
     }
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto
+    }
+
 }
 
 @media (max-width: 500px) {

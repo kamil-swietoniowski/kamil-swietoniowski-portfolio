@@ -30,7 +30,7 @@
             </div>
 
             <div class="right-column">
-                <div class="check-project">Check my projects</div>
+                <div class="check-project"><h1>Check my projects</h1></div>
                 <div id="project1">Project 1</div>
                 <div id="project2">Project 2</div>
             </div>
